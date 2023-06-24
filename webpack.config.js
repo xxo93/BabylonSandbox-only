@@ -29,7 +29,7 @@ module.exports = (env = {}, argv) => {
     },
     devServer: {
       // inline: false,
-      host: "0.0.0.0",
+      host: "localhost",
       hot: true,
       compress: true,
       contentBase: "./" + DIR,
